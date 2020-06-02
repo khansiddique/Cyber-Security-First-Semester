@@ -1,0 +1,59 @@
+C:\Users\HP>ssh khansidd@paulchen.informatik.tu-cottbus.de
+The authenticity of host 'paulchen.informatik.tu-cottbus.de (141.43.3.213)' can't be established.
+RSA key fingerprint is SHA256:+oiDddQHq07WJGMSGxtKRBC9mUfVjHJ+zRkFPqdttCE.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'paulchen.informatik.tu-cottbus.de,141.43.3.213' (RSA) to the list of known hosts.
+khansidd@paulchen.informatik.tu-cottbus.de's password:
+[khansidd@paulchen ~]$ vncserver :15
+
+You will require a password to access your desktops.
+
+Password:
+Verify:
+xauth:  file /home/khansidd/.Xauthority does not exist
+
+New 'paulchen:15 (khansidd)' desktop is paulchen:15
+
+Creating default startup script /home/khansidd/.vnc/xstartup
+Starting applications specified in /home/khansidd/.vnc/xstartup
+Log file is /home/khansidd/.vnc/paulchen:15.log
+
+[khansidd@paulchen ~]$
+
+Install the VNC Viewer.
+Sever Name:paulchen.informatik.tu-cottbus.de:15
+password.
+
+Terminal $ matlab
+
+To kill the session of SSH use the following command:
+
+
+C:\Users\HP>ssh
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+           [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
+           [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
+           [-i identity_file] [-J [user@]host[:port]] [-L address]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+           [-w local_tun[:remote_tun]] destination [command]
+
+C:\Users\HP>ssh khansidd@paulchen.informatik.tu-cottbus.de
+khansidd@paulchen.informatik.tu-cottbus.de's password:
+Last login: Thu Dec 20 12:53:47 2018 from wlcl-107-187.eduroam-st.b-tu.de
+[khansidd@paulchen ~]$ vncserver -list
+
+TigerVNC server sessions:
+
+X DISPLAY #     PROCESS ID
+:15             14284
+[khansidd@paulchen ~]$ vncserver -kill :15
+Killing Xvnc process ID 14284
+[khansidd@paulchen ~]$ vncserver :15
+
+New 'paulchen:15 (khansidd)' desktop is paulchen:15
+
+Starting applications specified in /home/khansidd/.vnc/xstartup
+Log file is /home/khansidd/.vnc/paulchen:15.log
+
+[khansidd@paulchen ~]$

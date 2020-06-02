@@ -1,0 +1,47 @@
+Decrypt both stages of
+Cry-Rijndael-groupXY.hex
+
+
+The keys for AES algorithm is(?rst 24
+bits of the key): A11457 
+
+The keys for mono-alphabetic substitution
+algorithm is: EKLPYQRBGJDWTCAXZSNIFVHMOU
+
+Submition of the resulting plain text is:
+
+
+PREFACE.  
+  
+This work is called the Critique of Practical Reason, not of the  
+pure practical reason, although its parallelism with the speculative  
+critique would seem to require the latter term. The reason of this  
+appears sufficiently from the treatise itself. Its business is to show  
+that there is pure practical reason, and for this purpose it  
+criticizes the entire practical faculty of reason. If it succeeds in  
+this, it has no need to criticize the pure faculty itself in order  
+to see whether reason in making such a claim does not presumptuously  
+overstep itself (as is the case with the speculative reason). For  
+if, as pure reason, it is actually practical, it proves its own  
+reality and that of its concepts by fact, and all disputation  
+against the possibility of its being real is futile.  
+  
+With this faculty, transcendental freedom is also established;  
+freedom, namely, in that absolute sense in which speculative reason  
+required it in its use of the concept of causality in order to  
+escape the antinomy into which it inevitably falls, when in the  
+chain of cause and effect it tries to think the unconditioned.  
+Speculative reason could only exhibit this concept (of freedom)  
+problematically as not impossible to thought, without assuring it  
+any objective reality, and merely lest the supposed impossibility of  
+what it must at least allow to be thinkable should endanger its very  
+being and plunge it into an abyss of scepticism.  
+  
+Inasmuch as the reality of the concept of freedom is proved by an  
+apodeictic law of practical reason, it is the keystone of the whole  
+system of pure reason, even the speculative, and all other concepts  
+(those of God and immortality) which, as being mere ideas, remain in  
+it unsupported, now attach themselves to this concept, and by it  
+obtain consistence and objective reality; that is to say, their  
+possibility is proved by the fact that freedom actually exists, for  
+this idea is revealed by the moral law.

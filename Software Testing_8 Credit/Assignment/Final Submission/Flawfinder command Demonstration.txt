@@ -1,0 +1,134 @@
+The options cover various aspects of flawfinder as follows.
+Documentation:
+  --help | -h Show this usage help.
+
+	root@kali:~# flawfinder -h
+  --version   Show version number.
+
+	root@kali:~# flawfinder --version   
+  --listrules List the rules in the ruleset (rule database).
+
+	root@kali:~# flawfinder -listrules 
+	root@kali:~# flawfinder -listrules -D
+
+Selecting Hits to Display:
+  --inputs | -I
+              Show only functions that obtain data from outside the program;
+              this also sets minlevel to 0.
+
+	root@kali:~# flawfinder -I vuln.c| less
+  -m X | --minlevel=X
+              Set minimum risk level to X for inclusion in hitlist.  This
+              can be from 0 (``no risk'')  to  5  (``maximum  risk'');  the
+              default is 1.
+
+	root@kali:~# flawfinder -m 4 vuln.c | less
+  --falsepositive | -F
+              Do not include hits that are likely to be false  positives.
+              Currently,  this  means  that function names are ignored if
+              they're not followed by "(", and that declarations of char-
+              acter  arrays  aren't noted.  Thus, if you have use a vari-
+              able named "access" everywhere, this will eliminate  refer-
+              ences  to  this ordinary variable.  This isn't the default,
+              because this  also  increases  the  likelihood  of  missing
+              important  hits;  in  particular, function names in #define
+              clauses and calls through function pointers will be missed.
+	
+	root@kali:~# flawfinder -F vuln.c | less
+  --neverignore | -n
+              Never ignore security issues, even if they have an ``ignore''
+              directive in a comment.
+
+	root@kali:~# flawfinder -n vuln.c | less
+  --regex PATTERN | -e PATTERN
+              Only report hits that match the regular expression PATTERN.
+
+	root@kali:~/softwareTesting# flawfinder -e CWE-20 vuln.c | less
+	root@kali:~/softwareTesting# flawfinder --regex "CWE-119|CWE-120" vuln.c | less
+	root@kali:~/softwareTesting# flawfinder --regex "CWE-119|CWE-20" vuln.c | less
+
+  Selecting Output Format:
+  --columns | -C
+              Show  the  column  number  (as well as the file name and
+              line number) of each hit; this is shown after the line number
+              by adding a colon and the column number in the line (the first
+              character in a line is column number 1).
+	root@kali:~/softwareTesting# flawfinder -C vuln.c|less
+
+  --context | -c
+              Show context (the line having the "hit"/potential flaw)
+	root@kali:~/softwareTesting# flawfinder -c vuln.c|less
+
+  --dataonly | -D
+              Don't display the headers and footers of the analysis;
+              use this along with --quiet to get just the results.
+	root@kali:~/softwareTesting# flawfinder --dataonly vuln.c|less
+	root@kali:~/softwareTesting# flawfinder -D vuln.c|less
+  --html | -H
+              Display as HTML output.
+	root@kali:~/softwareTesting# flawfinder -H vuln.c>vuln1.html
+  --immediate | -i
+              Immediately display hits (don't just wait until the end).
+	root@kali:~/softwareTesting# flawfinder -i vuln.c|less 
+	root@kali:~/softwareTesting# flawfinder --immediate vuln.c|less
+  --singleline | -S
+              Single-line output.
+	root@kali:~/softwareTesting# flawfinder -S vuln.c|less 
+	root@kali:~/softwareTesting# flawfinder --singleline vuln.c|less 
+  --omittime  Omit time to run.
+	root@kali:~/softwareTesting# flawfinder --omittime vuln.c|less 
+  --quiet | -Q
+              Don't display status information (i.e., which files are being
+              examined) while the analysis is going on.
+	root@kali:~/softwareTesting# flawfinder --quiet vuln.c|less 
+	root@kali:~/softwareTesting# flawfinder -Q vuln.c|less 
+Hitlist Management:
+  --savehitlist=F
+              Save all hits (the "hitlist") to F.
+	root@kali:~/softwareTesting# flawfinder -Q --savehitlist hitlist.txt vuln.c|less
+  --loadhitlist=F
+              Load hits from F instead of analyzing source programs.
+	root@kali:~/softwareTesting# flawfinder -Q --loadhitlist hitlist.txt|less 
+
+
+--------------------------------------------------------------------------  XXXXXXXXXXXXXXXX  -------------------------------------------   ------------------------------------------
+  For more information, please consult the manpage or available
+  documentation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Selecting Input Data:
+  --allowlink Allow symbolic links.
+  --followdotdir
+              Follow directories whose names begin with ".".
+              Normally they are ignored.
+  --nolink    Skip symbolic links (ignored).
+  --patch F | -P F
+              Display information related to the patch F
+              (patch must be already applied).
+  --error-level=LEVEL
+              Return a nonzero (false) error code if there is at least one
+              hit of LEVEL or higher.  If a diffhitlist is provided,
+              hits noted in it are ignored.
+              This option can be useful within a continuous integration script,
+              especially if you mark known-okay lines as "flawfinder: ignore".
+              Usually you want level to be fairly high, such as 4 or 5.
+              By default, flawfinder returns 0 (true) on a successful run.
+  --diffhitlist=F
+              Show only hits (loaded or analyzed) not in F.

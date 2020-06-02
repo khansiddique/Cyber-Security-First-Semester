@@ -1,0 +1,293 @@
+
+**** 11/29/18 17:09:37 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\HP\Documents\Laboratory\ZuFT\Task1\RBridging_Fault\nand-pspicefiles\schematic1\sim.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\HP\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 19ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source NAND
+M_MP2         N15051 N15495 N15022 N15022 IRF9140           
+C_C6         0 UY  1n  TC=0,0 
+U_UB         STIM(1,1)
++ $G_DPWR $G_DGND
++ N15746 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 2ms 1  
++ 3ms 0  
++ 6ms 1 
++ 8ms 0  
++ 9ms 1  
++ 11ms 0  
++ 13ms 1  
++ 16ms 0  
+C_C2         0 N15495  1n  TC=0,0 
+U_UA         STIM(1,1)
++ $G_DPWR $G_DGND
++ N15840 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 4ms 1  
++ 5ms 0  
++ 6ms 1 
++ 9ms 0  
++ 11ms 1  
++ 14ms 0  
++ 15ms 1  
++ 16ms 0  
+R_R5         N15051 UY  10 TC=0,0 
+V_V1         N15022 0 5V
+M_MN1         N15767 N15797 0 0 IRF150           
+C_C7         0 N15767  1n  TC=0,0 
+M_MN2         N15051 N15753 N15767 N15767 IRF150           
+R_R2         N15746 N15495  10 TC=0,0 
+C_C5         0 N15051  1n  TC=0,0 
+M_MP1         N19708 N14704 N15022 N15022 IRF9140           
+R_R4         N15746 N15753  10 TC=0,0 
+R_R1         N15840 N14704  10 TC=0,0 
+C_C1         0 N14704  1n  TC=0,0 
+C_C3         0 N15797  1n  TC=0,0 
+C_C4         0 N15753  1n  TC=0,0 
+R_R3         N15840 N15797  10 TC=0,0 
+R_ROpen         N15051 N19708  10 TC=0,0 
+R_RBridge         N15051 N14704  10 TC=0,0 
+
+**** RESUMING sim.cir ****
+.END
+
+
+**** Generated AtoD and DtoA Interfaces ****
+
+*
+* Analog/Digital interface for node N15746
+*
+* Moving U_UB:OUT1 from analog node N15746 to new digital node N15746$DtoA
+X$N15746_DtoA1
++ N15746$DtoA
++ N15746
++ $G_DPWR
++ $G_DGND
++ DtoA_STM
++       PARAMS: DRVH=   0      DRVL=   0      CAPACITANCE=   0     
+*
+* Analog/Digital interface for node N15840
+*
+* Moving U_UA:OUT1 from analog node N15840 to new digital node N15840$DtoA
+X$N15840_DtoA1
++ N15840$DtoA
++ N15840
++ $G_DPWR
++ $G_DGND
++ DtoA_STM
++       PARAMS: DRVH=   0      DRVL=   0      CAPACITANCE=   0     
+*
+* Analog/Digital interface power supply subcircuits
+*
+X$DIGIFPWR 0 DIGIFPWR
+
+
+**** 11/29/18 17:09:37 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\HP\Documents\Laboratory\ZuFT\Task1\RBridging_Fault\nand-pspicefiles\schematic1\sim.sim ] 
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               IRF9140         IRF150          
+               PMOS            NMOS            
+       LEVEL    3               3            
+           L    2.000000E-06    2.000000E-06 
+           W    1.9              .3          
+         VTO   -3.67            2.831        
+          KP   10.150000E-06   20.530000E-06 
+       GAMMA    0               0            
+         PHI     .6              .6          
+      LAMBDA    0               0            
+          RD     .06066         1.031000E-03 
+          RS     .0706          1.624000E-03 
+          RG     .811          13.89         
+         RDS  444.400000E+03  444.400000E+03 
+          IS   52.230000E-18  194.000000E-18 
+          JS    0               0            
+           N    2                            
+          PB     .8              .8          
+        PBSW     .8              .8          
+         CBD    2.141000E-09    3.229000E-09 
+          CJ    0               0            
+        CJSW    0               0            
+          TT  140.000000E-09  288.000000E-09 
+        CGSO  877.200000E-12    9.027000E-09 
+        CGDO  369.300000E-12    1.679000E-09 
+        CGBO    0               0            
+         TOX  100.000000E-09  100.000000E-09 
+          XJ    0               0            
+          UO  300                            
+       UCRIT   10.000000E+03   10.000000E+03 
+       DELTA    0               0            
+         ETA    0               0            
+      DIOMOD    1               1            
+         VFB    0               0            
+        LETA    0               0            
+        WETA    0               0            
+          U0    0               0            
+        TEMP    0               0            
+         VDD    5               5            
+       XPART    0               0            
+
+
+**** 11/29/18 17:09:37 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\HP\Documents\Laboratory\ZuFT\Task1\RBridging_Fault\nand-pspicefiles\schematic1\sim.sim ] 
+
+
+ ****     Digital Input MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               DINSTM          
+      S0NAME 0               
+       S0TSW  500.000000E-12 
+       S0RLO     .5          
+       S0RHI    1.000000E+03 
+      S1NAME 1               
+       S1TSW  500.000000E-12 
+       S1RLO    1.000000E+03 
+       S1RHI     .5          
+      S2NAME X               
+       S2TSW  500.000000E-12 
+       S2RLO     .429        
+       S2RHI    1.16         
+      S3NAME R               
+       S3TSW  500.000000E-12 
+       S3RLO     .429        
+       S3RHI    1.16         
+      S4NAME F               
+       S4TSW  500.000000E-12 
+       S4RLO     .429        
+       S4RHI    1.16         
+      S5NAME Z               
+       S5TSW  500.000000E-12 
+       S5RLO    1.000000E+06 
+       S5RHI    1.000000E+06 
+
+
+**** 11/29/18 17:09:37 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\HP\Documents\Laboratory\ZuFT\Task1\RBridging_Fault\nand-pspicefiles\schematic1\sim.sim ] 
+
+
+ ****     Digital IO  MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               IO_STM          
+        DRVL    0            
+        DRVH    0            
+       DtoA1 DtoA_STM        
+       DtoA2 DtoA_STM        
+       DtoA3 DtoA_STM        
+       DtoA4 DtoA_STM        
+       TPWRT  100.000000E+03 
+
+
+**** 11/29/18 17:09:37 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\HP\Documents\Laboratory\ZuFT\Task1\RBridging_Fault\nand-pspicefiles\schematic1\sim.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   UY)    4.9491  (N14704)    2.5361 (N15022)    5.0000 (N15051)    4.9491     
+
+(N15495)     .0025 (N15746)     .0025 (N15753)     .0025 (N15767)    2.4745     
+
+(N15797)     .1231 (N15840)     .1231 (N19708)    4.9491 ($G_DGND)    0.0000    
+
+($G_DPWR)    5.0000                   
+
+
+
+ DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE
+
+
+(N15746$DtoA) : 0  (N15840$DtoA) : 0  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.413E-01
+    X$DIGIFPWR.VDPWR  -9.879E-03
+    X$DIGIFPWR.VDGND   2.413E-01
+
+    TOTAL POWER DISSIPATION   1.26E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/29/18 17:09:37 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\HP\Documents\Laboratory\ZuFT\Task1\RBridging_Fault\nand-pspicefiles\schematic1\sim.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .16
+

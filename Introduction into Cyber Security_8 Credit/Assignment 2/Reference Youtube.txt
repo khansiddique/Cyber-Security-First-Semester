@@ -1,0 +1,53 @@
+https://docs.python.org/2/tutorial/introduction.html  -- Python
+
+Main Concept:
+https://dhavalkapil.com/blogs/Buffer-Overflow-Exploit/
+https://dhavalkapil.com/blogs/Shellcode-Injection/
+https://dhavalkapil.com/assets/files/Shellcode-Injection/shellcode.asm
+https://www.linuxnix.com/suid-set-suid-linuxunix/
+http://www.primalsecurity.net/0x0-exploit-tutorial-buffer-overflow-vanilla-eip-overwrite-2/
+https://sploitfun.wordpress.com/2015/05/08/classic-stack-based-buffer-overflow/
+https://sploitfun.wordpress.com/author/sploitfun/
+https://penturalabs.wordpress.com/2011/03/31/vulnerability-development-buffer-overflows-how-to-bypass-full-aslr/
+https://www.slideshare.net/AlexandreMoneger/07-aslr-bypass
+https://security.stackexchange.com/questions/157478/why-jmp-esp-instead-of-directly-jumping-into-the-stack
+http://www.sheepshellcode.com/blog/2015/03/24/writing-buffer-overflow-exploits-with-aslr/
+https://sploitfun.wordpress.com/2015/05/08/bypassing-aslr-part-i/
+https://stackoverflow.com/questions/16110591/aslr-brute-force
+https://hk.saowen.com/a/97794707e756f8e5724f107ea3f7d2ef7a388a157a8fb20080fee56f7b1ac646
+https://cybersecurity.upv.es/attacks/offset2lib/offset2lib.html
+https://security.stackexchange.com/questions/20497/stack-overflows-defeating-canaries-aslr-dep-nx
+https://security.stackexchange.com/questions/18556/how-do-aslr-and-dep-work
+https://dkalemis.wordpress.com/2010/10/27/the-need-for-a-pop-pop-ret-instruction-sequence/
+https://www.corelan.be/index.php/2009/07/23/writing-buffer-overflow-exploits-a-quick-and-basic-tutorial-part-2/
+https://www.corelan.be/index.php/2010/06/16/exploit-writing-tutorial-part-10-chaining-dep-with-rop-the-rubikstm-cube/
+https://www.securitysift.com/windows-exploit-development-part-6-seh-exploits/
+
+https://www.youtube.com/watch?v=iv5gflNM7rc
+Using setuid to Execute Commands as root
+
+https://www.youtube.com/watch?v=n7zhPMf0hxA
+Linux Hacking: SETUID Binary, Netcat & Cron | Bandit: OverTheWire (Levels 19-22)
+
+https://www.youtube.com/watch?v=AVjdom_2ffY
+Netcat Tutorial - The Swiss Army Knife of Network Tools
+
+Buffer Overflow Primer Part 1 (Smashing the Stack)
+https://www.youtube.com/watch?v=RF7DF4kfs1E&list=PLyL-SSi7_d7H2-oMy6MV8C5m3hYlL42Zx
+
+
+TheSecurityTube
+https://www.youtube.com/user/TheSecurityTube/search?query=assembly+primer
+SecurityTube - Assembly Primer For Hackers
+Ole Aass
+3 / 12
+https://www.youtube.com/watch?v=t-bjhu2z9wE&list=PL6brsSrstzga43kcZRn6nbSi_GeXoZQhR&index=3
+
+Assembly Primer For Hackers (Part 1) System Organization
+https://www.youtube.com/watch?v=K0g-twyhmQ4
+
+x86_64 Linux Assembly
+kupala
+https://www.youtube.com/watch?v=mRTax0MLaok&list=PLetF-YjXm-sCH6FrTz4AQhfH6INDQvQSn&index=7
+ASLR 
+https://www.youtube.com/watch?v=GddYLYlaclY&feature=youtu.be

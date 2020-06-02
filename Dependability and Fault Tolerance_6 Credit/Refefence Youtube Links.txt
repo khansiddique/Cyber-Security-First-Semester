@@ -1,0 +1,89 @@
+
+1. VLSI Physical Design
+-- https://www.youtube.com/watch?v=ml5QSBTW7vs&list=PLCmoXVuSEVHlEJi3SwdyJ4EICffuyqpjk&index=50
+
+2. PMOS NAND Gate
+-- https://www.youtube.com/watch?v=vW4uYKWiv3U
+
+3. CMOS NAND Gate
+-- https://www.youtube.com/watch?v=zfWPZRY5chg
+
+4. Scientific and Cultural Facts Tamil
+-- https://www.youtube.com/watch?v=AVSFPJlSFaU
+
+5. CMOS AND OR Invert (OR AND Invert) Gates
+https://www.youtube.com/watch?v=mCNeR4uUorQ
+
+6. CMOS characterstics in ORCAD Pspice
+https://www.youtube.com/watch?v=Dzqek9kFcZg
+7. simulation analysis of cmos inverter using pspice.
+https://www.youtube.com/watch?v=YUbrjjbJ4y4
+
+8. Tutorial on CMOS VLSI Design of Basic Logic Gates
+https://www.youtube.com/watch?v=o9vEnzLL-lY
+
+Quiescent Current ( Iq range = Supliers will want per DC/ DC Iq's in 10 uA to 40uA range.
+Three Measurements for Quiescent Current:
+1. Shut Down Current:
+-Part disable: Enable tied to GND.
+2. Non-Switching Iq:
+-Part enable, feedback tied high. This value can be found in the EC table,
+and is traditionally measured open loop on the ATE.
+3. Switching Iq
+-Also khown as operation quiescent current or no load input current.
+Introduction to Buck Converters: Understanding Quiescent Current Specifications
+https://www.youtube.com/watch?v=1vTkCJcB56k
+By Sweetwater on Oct 5, 2005, 12:00 AM
+Like
++1
+Tweet
+The term given to describe the amount of current consumed by a circuit when it is not performing any work (sometimes referred to as standby current). 
+This is a particularly important concept in designing battery-operated systems such as wireless beltpack transmitters. 
+Battery life is determined by the total current drain composed of quiescent current and load current. 
+Usually battery-operated devices are in standby mode more than in operation mode so the quiescent current consumption is the more dominant consideration.
+Quiescent current consumption should be as low as possible in order to prolong the battery’s life.
+
+Class A amplifiers have the general property that the output device(s) always carry a significant current level, and hence have a large quiescent current. 
+The quiescent current is defined as the current level in the amplifier when it is producing an output of zero. 
+Class A amplifiers vary the large quiescent current in order to generate a varying current in the load, hence they are always inefficient in power terms.
+
+Low Iq LDOs
+https://www.youtube.com/watch?v=jcXn321y7WI
+
+Lesson 1 - Voltage, Current, Resistance (Engineering Circuit Analysis)
+https://www.youtube.com/watch?v=OGa_b26eK2c
+CMOS Transistors  - - - Nice topic
+https://www.youtube.com/watch?v=_SwY-WfWTQo
+Using Power MOSFETS with Arduino
+https://www.youtube.com/watch?v=fex79DvbZvg
+EEVblog #748 - How Do Transistors Work?  ---- Nice Topic
+https://www.youtube.com/watch?v=qUeK7pHe0rI
+How a transistor works
+https://www.youtube.com/watch?v=DXvAlwMAxiA
+Depletion Region
+https://www.youtube.com/watch?v=SutmAEC9JWA
+Threshold Voltage
+https://www.youtube.com/watch?v=S6SagsuMcxM
+repel -- -- --- 
+drive or force (an attack or attacker) back or away.
+The N-Channel Mosfet Transistor (NMOS)
+https://www.youtube.com/watch?v=zMAaZfh1yz8
+booksofscience  -- - -- - nice Topics
+https://www.youtube.com/user/booksofscience/videos
+Construction & Working of Enhancement-Type MOSFET (Part 1) - - - - -Nice Topics
+https://www.youtube.com/watch?v=4_nGFY7zgDM
+Drain Characteristics of Enhancement-Type MOSFET
+https://www.youtube.com/watch?v=CwFc6rRMg24
+concept of pinch off voltage
+https://www.youtube.com/watch?v=6FV5Bl4j_jg
+CMOS Latch-Up
+https://www.youtube.com/watch?v=gIleH0fH6nM
+How latch up will take place - English Version
+https://www.youtube.com/watch?v=QEBwMjuoAV8
+LATCH UP IN CMOS - English Version
+https://www.youtube.com/watch?v=c-JbhXM0oIo
+Solid State Workshop
+https://www.youtube.com/user/SolidStateWorkshop/videos
+
+What are Setup and Hold Times of a CMOS Latch? - Explanation
+https://www.youtube.com/watch?v=1LRRUtgsM2s&index=10&list=RDQMCpf2oE0nT0U

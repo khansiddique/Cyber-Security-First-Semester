@@ -1,0 +1,12 @@
+Chapter 1 Introduction
+--------------- ---------------- ---------------- Progress Line ----------------- ----------------- -------------------
+Chapter 2 Faults and Fault Model
+Chapter 3:  Formal Issues in Reliability 
+Chapter 4:  Code-Based Methods for Error Detection and Correction 
+Chapter 5: Fault behavior and fault / error correction for digital circuits
+
+
+Exercise Sheet - 1
+--------------- ---------------- ---------------- Progress Line ----------------- ----------------- -------------------
+Exercise Sheet - 2
+Exercise Sheet - 3

@@ -1,0 +1,52 @@
+tutorials
+--- NETWORK SECURITY - RSA ALGORITHM , key generation, eular's trocean function
+
+https://www.youtube.com/watch?v=2Z3toEiY5lI
+
+A Toy Example of RSA Encryption, https://thatsmaths.com/2016/08/11/a-toy-example-of-rsa-encryption/
+How RSA Works With Examples, http://doctrina.org/How-RSA-Works-With-Examples.html
+Alexander Katz, Aloysius Ng, Patrick Bourg, RSA Encryption, Retrieved 25th November, 2018 from https://brilliant.org/wiki/rsa-encryption/, 
+Public-key cryptography, https://en.wikipedia.org/wiki/Public-key_cryptography
+RSA (cryptosystem), https://en.wikipedia.org/wiki/RSA_(cryptosystem)
+Euclidean algorithm, https://en.wikipedia.org/wiki/Euclidean_algorithm
+Euclidean Algorithm, http://mathworld.wolfram.com/EuclideanAlgorithm.html
+Equivalence Class,http://mathworld.wolfram.com/EquivalenceClass.html
+Where is RSA encryption used?, https://www.quora.com/Where-is-RSA-encryption-used
+What are the applications of RSA in everyday life?, https://www.researchgate.net/post/What_are_the_applications_of_RSA_in_everyday_life
+Christof Paar and Jan Pelzl, Understanding Cryptography, Chapter 7 – The RSA Cryptosystem, ver. December 7, 2010
+
+COMP6441 : RSA Asymmetric Encryption & Digital Signatures, https://www.youtube.com/watch?v=z6_A6_BQgLs
+RSA use cases: difference between RSA Encryption and Digital Signature, https://www.youtube.com/watch?v=I6N8ReGI9ME
+NETWORK SECURITY - RSA ALGORITHM, https://www.youtube.com/watch?v=2Z3toEiY5lI
+RSA Algorithm is the example for Public Key Encryption algorithm.
+Here we are supposed to find two keys 
+1) Public Key which is used at encryption
+2) Private Key which is used at decryption
+step 1: Select two large Primes P , Q
+Step 2: Calculate n=P*Q & O(n) = (P-1)*(Q-1)
+Step 3: Assume e and d (Public and Private Key).
+Step 4: Encrypt the Plain Text using Public Key e.
+Step 5: Decrypt the Cipher Text using Private Key d.
+example:
+M=5, P=3, Q=11
+here pi(n)=2*10=20
+e=7
+
+we can assume d as 3 
+
+d*e mod pi(n) =1
+3*7 mod 20 =1
+
+d=3
+
+Encryption
+C=M(power e) mod n
+C=5(POWER 7) mod 33
+C=14
+
+Decryption
+M=C(POWER d) mod n
+M=14(POWER 3) mod 33
+M=5.
+
+Hope your doubt has been clarified.?

@@ -1,0 +1,24 @@
+Example: For Tool Demonstration
+
+1. Examine ?le only report vulnerabilities level 4 and up
+	$  flawfinder -m 4 vuln.c | less 
+2. Examine ?le to report the functions that take inputs
+	$  flawfinder -I vuln.c| less 
+3. Examine ?le to report including even the hits marked for ignoring in the code comments
+	$  flawfinder -n vuln.c | less 
+4. Examine file to report all hits in CSV format 	
+	$  flawfinder --csv vuln.c >csvData.csv
+5. Examine file to report only the actual results (removing the header and footer of the output). 
+	$  flawfinder -QD vuln.c | less
+6. Examine file to report only the actual results
+	$  flawfinder -QDSC vuln.c|less 
+7. Examine the ?le and produce HTML formatted results
+	$  flawfinder -QHc vuln.c>result.html
+8. Examine ?le save the resulting hitlist in savehit.txt file
+	$  flawfinder -Q --savehitlist savehit.txt vuln.c|less
+9. Examine ?le and show hits that were already in the ?le savehit.txt
+	$  flawfinder --loadhitlist savehit.txt vuln.c|less 
+10. Examine file, but only report hits where CWE-119 or CWE-120 apply.
+	$  flawfinder --regex "CWE-119|CWE-120" vuln.c | less
+
+

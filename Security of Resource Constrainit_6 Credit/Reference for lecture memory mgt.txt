@@ -1,0 +1,95 @@
+https://www.youtube.com/watch?v=zLJbP6vBk2M
+Introduction to Virtualization
+https://www.youtube.com/watch?v=1N2E82YbRPE&list=PLhwVAYxlh5dsX6aOfVMZXS8MwKwBmwVM6&index=31
+
+lecture 5-Virtualization 
+lecture 27- Memory Mgt.
+Lecture 31- Virtual Memory
+lecture-48.
+
+What is Virtualization?
+https://www.youtube.com/watch?v=V9AiN7oJaIM&list=PLvNLT3nlARWcOxTt1_J0mRO9D-9AbOW8D
+
+Operating System
+Tutorials Point (India) Pvt. Ltd.
+1 / 89
+https://www.youtube.com/watch?v=QTQ8zym8Au0&list=PLWPirh4EWFpGkHH9JTKH9KsnfAA471Fhy
+
+Operating System
+Easy Engineering Classes
+1 / 65
+https://www.youtube.com/watch?v=9lQs4VwYcaQ&list=PLV8vIYTIdSnZ67NQObdXE0gFjrzPrNKHp
+Revocation of access rights Operating System Protection
+https://www.youtube.com/watch?v=UyRnq6J7LHw
+
+Virtualization
+Michael Aubry
+17 / 19
+https://www.youtube.com/watch?v=pT074yEPY-0&list=PLY5Iz0u4c3oEiM1kIxJ7oX42bmMoIJc5r&index=17
+
+CMPE 283 Virtualization
+Aditya Parmar
+2 / 4
+https://www.youtube.com/watch?v=ppkzbhE83pY&index=2&list=PLDJmCf6eqIpEbUdKA4M2DC5pOK4vdHdp0
+
+Memory Virtualization Full
+https://www.youtube.com/watch?v=UgVnzAGBeWI
+
+Memory leak | Free() | Double free in C | Visualizing Pointers in C | Programming in Animated Way
+https://www.youtube.com/watch?v=LNoeAU25uy4
+
+How to Detect a SQL Slammer by Capsa
+https://www.youtube.com/watch?v=ruj0lFvOceQ
+
+Intermediate memory bootloaders
+https://www.youtube.com/watch?v=jbLy6kE-Szg
+
+Protection & Security Introduction | Goals of Protection | Domains of Protection
+https://www.youtube.com/watch?v=uFIzD1k5S5U&list=PLV8vIYTIdSnZ67NQObdXE0gFjrzPrNKHp&index=42
+Demand Paging | Advantages | Disadvantages | Page Fault | Effective Memory Access Time
+https://www.youtube.com/watch?v=Agi0u5Png_U&index=11&list=PLV8vIYTIdSnZ67NQObdXE0gFjrzPrNKHp
+
+Base & Limit Register | Dynamic Loading Vs. Linking | Logical Vs. Physical Address space| MMU
+https://www.youtube.com/watch?v=cVDDVE4PVNg&list=PLV8vIYTIdSnZ67NQObdXE0gFjrzPrNKHp&index=2
+Dynamic Loading, Linking & Overlay
+https://www.youtube.com/watch?v=lWVQsld8hMI
+Logical Vs Physical Address Space
+https://www.youtube.com/watch?v=CmTMr_x3NwY
+harvard and von neumann architecture | Embedded systems | by bhanu priya
+https://www.youtube.com/watch?v=QMFlF-9ji8Y
+COA Lecture 3 - Von Neumann Architecture, HardWired Program(S/W Vs. H/W Functionality)
+https://www.youtube.com/watch?v=QnSZr9Dv4y0
+Von Neumann and Harvard Architecture in HINDI
+https://www.youtube.com/watch?v=Rn3cDnoFEEs
+
+ROP with a very small stack - 32C3CTF teufel (pwnable 200)
+https://www.youtube.com/watch?v=wDosab_Y4Hs
+Software security - Return Oriented Programming - ROP
+https://www.youtube.com/watch?v=XZa0Yu6i_ew
+
+software security
+intrigano
+1 / 49
+https://www.youtube.com/watch?v=P8P7RmqDlf4&list=PL2jykFOD1AWY1E3MB38_uOfpvEf4gnW80
+Rabbit Webinar - Intro to Embedded Systems Security
+https://www.youtube.com/watch?v=WOabM3D75r4
+Embedded System Security: Cryptography
+Phil Koopman
+2 / 12
+https://www.youtube.com/watch?v=BUXwAab3Ma4&list=PL_DQiOR0jhbWQu-5WguuS5ELY0asIqTor&index=2
+https://www.youtube.com/watch?v=_PBWMTGBFfU&list=PL_DQiOR0jhbWQu-5WguuS5ELY0asIqTor&index=12
+
+What Is Remote Code Execution?
+https://www.youtube.com/watch?v=EqlNWsORnRg
+Common Attacks on IoT Devices - Christina Quast
+https://www.youtube.com/watch?v=vKZVbX-hNyE
+
+Binary Translation
+https://www.youtube.com/watch?v=ppkzbhE83pY&t=1s
+SQL Slammer 2003
+https://www.youtube.com/watch?v=HH2_m4BqJZo
+
+Memory leak | Free() | Double free in C | Visualizing Pointers in C | Programming in Animated Way
+https://www.youtube.com/watch?v=LNoeAU25uy4
+Software security - Return Oriented Programming - ROP
+https://www.youtube.com/watch?v=XZa0Yu6i_ew

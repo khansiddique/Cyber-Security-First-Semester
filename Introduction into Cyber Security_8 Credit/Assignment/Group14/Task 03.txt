@@ -1,0 +1,3 @@
+Submition of the 64-bit key used for the encryption:
+
+D5 18 31 B1 F2 4A 31 BA

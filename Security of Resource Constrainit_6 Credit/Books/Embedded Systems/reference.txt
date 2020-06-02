@@ -1,0 +1,13 @@
+https://webpages.uncc.edu/~jmconrad/ECGR4101-2012-01/notes.html
+
+https://www.youtube.com/watch?v=3Ak8cxN_bLI&list=PLE4462C1C306E2EB2
+Embedded Systems Course - Lecture 01: Introduction to Embedded Systems
+https://www.youtube.com/watch?v=AhfkL7IPAFg&index=3&list=PLE4462C1C306E2EB2
+Embedded Systems Course - Lecture 03: Concepts of Microcontrollers, Part 2
+
+https://www.youtube.com/watch?v=TkcbsvZkBZ4&list=PLE4462C1C306E2EB2&index=4
+Embedded Systems Course - Lecture 04: C Programming Language Review, Part 1
+
+https://www.youtube.com/watch?v=5Pf-2X8_z3Y
+Embedded Systems Course - Lab 1 - Using the Renesas RX62N Demonstration Kit
+--------------------- ------------------------- ------Progress Line -----------------------------------------------------------------

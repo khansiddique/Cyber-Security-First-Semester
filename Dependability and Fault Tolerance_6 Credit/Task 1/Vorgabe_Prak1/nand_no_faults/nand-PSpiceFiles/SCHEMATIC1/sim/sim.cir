@@ -1,0 +1,19 @@
+** Profile: "SCHEMATIC1-sim"  [ F:\First Semester\Dependability and Fault Tolerance_6 Credit\Task 1\Vorgabe_Prak1\nand_no_faults\nand-PSpiceFiles\SCHEMATIC1\sim.sim ] 
+
+** Creating circuit file "sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\HP\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 19ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

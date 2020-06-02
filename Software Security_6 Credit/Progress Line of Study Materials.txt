@@ -1,0 +1,112 @@
+Contents 
+Security engineering: specifying, analyzing and verifying of security requirements, protection goals and protection mechanisms, risk management based on threat analyses, 
+security standards, formal models for computer security, cryptographic foundations and algorithms, specifying and analyzing security protocols, challenges in security engineering 
+
+Schedule & Slides
+
+
+  
+Date 
+Topic 
+Speaker 
+Last Update 
+Slides 
+Introduction and Motivation 
+15.10.2018 Examples of vulnerabilities in software systems, basic terms, dependability defined by Lapri, Steffen Helke, 15.10.2018
+17.10.2018 Lecture must be cancelled because the Cyber Security program will be accredited by external experts on this day  
+22.10.2018 Malware categorisation, computer virus vs. worm, adware, spyware, trojan horse Steffen Helke 22.10.2018
+24.10.2018 Buffer overflows, storage management, stack frames, code injection Steffen Helke 30.10.2018 
+29.10.2018 Exercise: Buffer overflow: ATTENTION ROOM CHANGE: Today we are in VG1c, Room 003 Steffen Helke 31.10.2018   overflow.c  
+31.10.2018 National holiday in Brandenburg
+
+Anonymity and Pseudonymity 
+05.11.2018 Anonymity definitions, pseudonymity, remailer Steffen Helke 05.11.2018
+07.11.2018 Anonymous web browsing, JAP and Tor, Diffie-Hellman key exchange Steffen Helke 07.11.2018
+12.11.2018 Diffie-Hellman key exchange and Tor for Hidden Services Steffen Helke 12.11.2018
+  
+Security Analysis and Design Methods 
+14.11.2018 Dining cryptographers, DC-Nets, Security engineering, process models, security analyses using misuse cases & attack trees, protection goals, conflicting objectives and strengthening goals Steffen Helke 14.11.2018
+19.11.2018 Attack trees, Security design: Multilateral vs. multilevel security, Bell-LaPadula model Steffen Helke 19.11.2018
+21.11.2018 Multilevel Security and Information Flow Control using JiF Steffen Helke 21.11.2018
+26.11.2018 Exercise: Information Flow Control using JiF Steffen Helke 26.11.2018
+   
+Cryptological Encryption Techniques 
+28.11.2018 Introduction to the history of cryptology, monoalphabetic and polyalphabetic cipher, one-time pad, Enigma Steffen Helke 28.11.2018
+03.12.2018 Pseudo-one-time pad, s2-mod-n generator, symmetric and asymmetric variant 
+Seyed Ehsan Hashemi Rastegar, Nilambari Sanjay Marathe, Fathima Shaik, Adam Rinder, Yassir Sellal 03.12.2018 
+05.12.2018 GMR - strong cryptographic signature system
+Oliver Noack, Mark Simon Schöps, Benjamin Förster 12.12.2018 
+10.12.2018 Asymmetric encryption and digital signatures using RSA
+Kwong Kit Shing, Batyi Amatov, Siddique Reza Khan, Harpreet Kaur Oberoi 10.12.2018
+12.12.2018 Exercise: Calculations for RSA, s2-mod-n and GMR Steffen Helke 12.12.2018
+17.12.2018 Symmetric encryption using DES, Triple-DES and AES
+Alina Grinina, Iskander Mavlyutov, Yevhenii Samorodov, Pavel Voronov 
+19.12.2018 Cryptographic systems in operation: block cipher vs. stream cipher, ECB, CBC, CFB, OFB, CTR
+Gift Ajulibe, Akash Mahmood, Abdulmutalib Babatunde Lawal, Sam Abubakar Tareque 
+Christmas holidays
+ 
+ 
+ 
+07.01.2019
+Specific block or stream cipher for hard disk encryption, key management, attacks on hardware
+Abd Elaziz Saad Abd Elaziz Abd Elaal, Ankur Jain, Enrik Doci, Zineb Alaoui Selsouli, Tomi Jerenko 
+ 
+ 
+Security Protocols and Verification Techniques 
+09.01.2019
+Needham-Schroeder protocol, typical attacks, man-in-the-middle attack and replay attack
+Steffen Helke
+ 
+ 
+14.01.2019
+Kerberos protocol, differences between v4 and v5, time stamps and nonces to prevent replay attacks
+Steffen Helke
+ 
+ 
+16.01.2019
+CSP and FDR, Verification of the Needham-Schroeder protocol using model checking
+Steffen Helke
+ 
+ 
+21.01.2019
+Exercise: Protocol verification using FDR model checking
+Steffen Helke
+ 
+ 
+23.01.2019
+Burrows-Abadi-Needham logic (BAN), analysis of the Wide Mouth Frog protocol
+Steffen Helke
+ 
+ 
+28.01.2019
+Exercise: Protocol verification using ProVerif
+Steffen Helke
+ 
+ 
+Conclusions and Outlook 
+30.01.2019
+Repetition of important content and preparation for the exam
+Steffen Helke
+ 
+ 
+
+
+
+Exercise Sheets
+
+
+
+Exercise sheet publication 
+Deadline for submission 
+Contents 
+Documents 
+1. 
+28.11.18 
+07.01.19 
+Security and information flow analyses 
+ 
+2. 
+xx.xx.xx 
+xx.xx.xx 
+Protocol verification 
+  

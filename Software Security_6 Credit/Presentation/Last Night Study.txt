@@ -1,0 +1,39 @@
+Multiplicative Inverse : How To Find Multiplicative Inverse With Example | Cryptography
+https://www.youtube.com/watch?v=RRJ64AH4KHw&t=38
+
+What is digital signature?
+https://www.youtube.com/watch?v=TmA2QWSLSPg
+NETWORK SECURITY - RSA ALGORITHM
+https://www.youtube.com/watch?v=2Z3toEiY5lI&t=569s
+
+COMP6441 : Hashes, Preimage and collision resistance
+https://www.youtube.com/watch?v=GsskJX6nXYo
+Strong Collision Resistance - Applied Cryptography
+https://www.youtube.com/watch?v=vHVxX6M3ENQ
+
+Low Exponent Attack | Attacks on RSA | Protocol Failure Attack | Cryptography & Network Security
+https://www.youtube.com/watch?v=nrgGU2mUum4
+
+Common Modulus Attack | Attacks on RSA | Protocol Failure Attack | Cryptography & Network Security
+https://www.youtube.com/watch?v=uX2z4fZYYkQ&t=393s
+
+Side Channel Timing Attack Demonstration (Timing Attaack)
+https://www.youtube.com/watch?v=2-zQp26nbY8
+
+Chosen Cipher Attack on RSA :  Multiplicative Attack
+https://www.youtube.com/watch?v=ZjYzrn8M3w4
+
+18. Common Modulus Attack Part 1
+https://www.youtube.com/watch?v=zEbpgThy8No
+The Chinese Remainder Theorem CRT  --- Easy to calculate Inverse.
+https://www.youtube.com/watch?v=3PkxN_r9up8
+
+
+The Chinese Remainder Theorem  --- More Easy
+https://www.youtube.com/watch?v=Y5RcMWiUyyE
+Chinese Remainder Theorem | Cryptography And Network Security
+https://www.youtube.com/watch?v=f2o-DsjhKhw
+Congruence and Fermat’s little theorem
+https://www.youtube.com/watch?v=QgPfagOgOAc
+Fermat's Little Theorem examples
+https://www.youtube.com/watch?v=pMA-dD-KCWM

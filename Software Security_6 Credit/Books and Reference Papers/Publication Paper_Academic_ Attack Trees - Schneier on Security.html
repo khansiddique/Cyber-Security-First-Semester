@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)https://www.schneier.com/academic/archives/1999/12/attack_trees.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	
+
+
+	<meta name="viewport" content="width=device-width; initial-scale=1">
+
+	<link rel="STYLESHEET" type="text/css" href="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/main.css">
+	<link rel="alternate" type="application/atom+xml" title="Blog Feed (Atom 1.0)" href="https://www.schneier.com/blog/atom.xml">
+
+
+	<link rel="STYLESHEET" type="text/css" href="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/jquery.socialshareprivacy.css">
+	<script type="text/javascript" src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/jquery-1.9.1.min.js.download"></script> 
+	<script type="text/javascript" src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/jquery.cookies.js.download"></script>
+	<script type="text/javascript" src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/jquery.socialshareprivacy.2.js.download"></script>
+	<script type="text/javascript">
+	// <![CDATA[
+	// define the default order of the buttons:
+	$.fn.socialSharePrivacy.settings.order = ['facebook', 'twitter', 'gplus'];
+	$.fn.socialSharePrivacy.settings.path_prefix = '/';
+	// ]]>
+	</script>
+
+
+
+	
+	
+		<link rel="prev" href="https://www.schneier.com/academic/archives/1999/11/security_in_the_real.html" title="Security in the Real World: How to Evaluate Security Technology">
+	
+	
+		<link rel="next" href="https://www.schneier.com/academic/archives/2000/01/yarrow-160.html" title="Yarrow-160">
+	
+
+	<script type="text/javascript" src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/mt.js.download"></script>
+
+	<title>Academic: Attack Trees - Schneier on Security</title>
+
+</head>
+<body class="section-academic"><div id="wrapper"><div id="main">
+	<header><div id="header">
+	<h1><a href="https://www.schneier.com/">Schneier on Security</a></h1>
+	</div></header>
+	<nav><div class="nav" id="header-nav">
+<ul>
+	<li class="menu1"><a href="https://www.schneier.com/">Blog</a></li>
+	<li class="menu2"><a href="https://www.schneier.com/crypto-gram/">Newsletter</a></li>
+	<li class="menu3"><a href="https://www.schneier.com/books/">Books</a></li>
+	<li class="menu4"><a href="https://www.schneier.com/essays/">Essays</a></li>
+	<li class="menu5"><a href="https://www.schneier.com/news/">News</a></li>
+	<li class="menu6"><a href="https://www.schneier.com/talks/">Talks</a></li>
+	<li class="menu7 current"><a href="https://www.schneier.com/academic/">Academic</a></li>
+	<li class="menu8"><a href="https://www.schneier.com/blog/about/">About Me</a></li>
+</ul>
+
+
+	</div></nav>
+
+
+<aside><div class="sidebar" id="sidebar-one">
+
+		<section><div class="sidesection" id="search-widget">
+		<h3>Search</h3>
+		<p class="small"><em>Powered by <a href="https://duckduckgo.com/">DuckDuckGo</a></em></p>
+		<form method="get" action="https://duckduckgo.com/">
+		<input type="hidden" name="kh" value="1"><!-- use https -->
+		<input id="search" name="q" size="15" maxlength="255">
+		<input type="submit" value="Go"><br>
+		<input type="radio" name="sites" id="searchblog" value="www.schneier.com/blog"><label for="searchblog">blog</label> 
+		<input type="radio" name="sites" id="searchessays" value="www.schneier.com/essays"><label for="searchessays">essays</label>
+		<input type="radio" name="sites" id="searchall" value="www.schneier.com" checked=""><label for="searchall">whole site</label>		</form>
+		</div></section>
+	
+		<section><div class="sidesection">
+		<h3>Subscribe</h3>
+		
+			<div id="subscription-buttons">
+				<a href="https://www.schneier.com/blog/atom.xml"><img alt="Atom Feed" src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/rss-32px.png"></a>
+				<a href="https://www.facebook.com/bruce.schneier"><img alt="Facebook" src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/facebook-32px.png"></a>
+				<a href="https://twitter.com/schneierblog/"><img alt="Twitter" src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/twitter-32px.png"></a>
+				<a href="http://www.amazon.com/Schneier-on-Security/dp/B0053HDDWW/"><img alt="Kindle" src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/kindle-32px.png"></a>
+				<a href="https://www.schneier.com/crypto-gram-sub.html"><img alt="E-Mail Newsletter (Crypto-Gram)" src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/email-32px.png"></a>
+			</div><!--#subscription-buttons-->
+		</div></section>
+
+	</div></aside>
+
+
+	
+	<div id="content"><p id="breadcrumbs">
+
+
+<a href="https://www.schneier.com/academic/">Academic</a>&nbsp;&gt;
+
+
+
+
+</p>
+
+
+
+    
+    
+    <article><div class="article">
+	<script type="text/javascript">
+		// <![CDATA[
+		$(document).ready(function () {
+			$('#share008844').socialSharePrivacy({uri: 'https://www.schneier.com/academic/archives/1999/12/attack_trees.html', title: 'Attack Trees'});
+			});
+		// ]]>
+	</script>
+	
+
+	<h2 class="entry" id="a008844">Attack Trees</h2>
+	
+	
+		
+	
+    
+	    <p class="cryptoauthors"><em><strong>B. Schneier</strong></em></p>
+				
+<p class="cryptocite"><cite>Dr. Dobb's Journal</cite>, December 1999.</p>
+			
+	    
+<h4>Modeling security threats</h4>
+<h5>By Bruce Schneier</h5>
+<p>Few people truly understand computer security, as illustrated by computer-security company marketing literature that touts "hacker proof software," "triple-DES security," and the like. In truth, unbreakable security is broken all the time, often in ways its designers never imagined. Seemingly strong cryptography gets broken, too. Attacks thought to be beyond the ability of mortal men become commonplace. And as newspapers report security bug after security bug, it becomes increasingly clear that the term "security" doesn't have meaning unless also you know things like "Secure from whom?" or "Secure for how long?"</p>
+<p>Clearly, what we need is a way to model threats against computer systems. If we can understand all the different ways in which a system can be attacked, we can likely design countermeasures to thwart those attacks. And if we can understand who the attackers are -- not to mention their abilities, motivations, and goals -- maybe we can install the proper countermeasures to deal with the real threats.</p>
+<h5>Enter Attack Trees</h5>
+<p>Attack trees provide a formal, methodical way of describing the security of systems, based on varying attacks. Basically, you represent attacks against a system in a tree structure, with the goal as the root node and different ways of achieving that goal as leaf nodes.</p>
+<p class="illustration"><a href="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/paper-attacktrees-fig1.gif"><img src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/paper-attacktrees-fig1.gif" alt="Figure 1: Attack Nodes"></a><br>
+<strong>Figure 1: Attack Nodes</strong></p>
+<p id="rf1">Figure 1, for instance, is a simple attack tree against a physical safe. The goal is opening the safe. To open the safe, attackers can pick the lock, learn the combination, cut open the safe, or install the safe improperly so that they can easily open it later. To learn the combination, they either have to find the combination written down or get the combination from the safe owner. And so on. Each node becomes a subgoal, and children of that node are ways to achieve that subgoal. (Of course, this is just a sample attack tree, and an incomplete one at that. How many other attacks can you think of that would achieve the goal?)</p>
+<p>Note that there are AND nodes and OR nodes (in the figures, everything that isn't an AND node is an OR node). OR nodes are alternatives -- the four ways to open a safe, for example. AND nodes represent different steps toward achieving the same goal. To eavesdrop on someone saying the safe combination, attackers have to eavesdrop on the conversation AND get safe owners to say the combination. Attackers can't achieve the goal unless both subgoals are satisfied.</p>
+<p>That's the basic attack tree. Once you have it completed, you can assign values -- <i>I</i> (impossible) and <i>P</i> (possible) in Figure 1 -- to the various leaf nodes, then make calculations about the nodes. (Again, this is only an illustrative example; do not take the values as an indication of how secure my safe really is.) Once you assign these values -- presumably this assignment will be the result of painstaking research on the safe itself -- you can calculate the security of the goal. The value of an OR node is possible if any of its children are possible, and impossible if all of its children are impossible. The value of an AND node is possible only if all children are possible, and impossible otherwise; <a name="rf2" id="rf2">see</a> Figure 2.</p>
+<p class="illustration"><a href="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/paper-attacktrees-fig2.gif"><img src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/paper-attacktrees-fig2.gif" alt="Figure 2: Possible Attacks"></a><br>
+<strong>Figure 2: Possible Attacks</strong></p>
+<p>The dotted lines in Figure 2 show all possible attacks -- a hierarchy of possible nodes, from a leaf to the goal. In this sample system, there are two possible attacks: Cutting open the safe, or learning the combination by bribing the owner of the safe. With this knowledge, you know exactly how to defend this system against attack.</p>
+<p>Assigning "possible" and "impossible" to the nodes is just one way to look at the tree. Any Boolean value can be assigned to the leaf nodes and then propagated up the tree structure in the same manner: easy versus difficult, expensive versus inexpensive, intrusive versus nonintrusive, legal versus illegal, special equipment required versus no <a name="rf3" id="rf3">special equipment</a>. Figure 3 shows the same tree with another Boolean node value.</p>
+<p class="illustration"><a href="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/paper-attacktrees-fig3.gif"><img src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/paper-attacktrees-fig3.gif" alt="Figure 3: Special Equipment Required"></a><br>
+<strong>Figure 3: Special Equipment Required</strong></p>
+<p><a name="rf4" id="rf4">Assigning</a> "expensive" and "not expensive" to nodes is useful, but it would be better to show exactly how expensive. It is also possible to assign continuous values to nodes. Figure 4 shows the tree with different costs assigned to the leaf nodes. Like Boolean node values, these can propagate up the tree as well. OR nodes have the value of their cheapest child; AND nodes have the value of the sum of their children. In Figure 4, the costs have propagated up the tree, and the cheapest attack has been highlighted.</p>
+<p class="illustration"><a href="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/paper-attacktrees-fig4.gif"><img src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/paper-attacktrees-fig4.gif" alt="Figure 4: Cost of Attack"></a><br>
+<strong>Figure 4: Cost of Attack</strong></p>
+<p>Again, this tree can be used to determine where a system is <a name="rf5" id="rf5">vulnerable</a>. Figure 5 shows all attacks that cost less than $100,000. If you are only concerned with attacks that are less expensive (maybe the contents of the safe are only worth $100,000), then you should only concern yourself with those attacks.</p>
+<p class="illustration"><a href="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/paper-attacktrees-fig5.gif"><img src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/paper-attacktrees-fig5.gif" alt="Figure 5: All Attacks Less than $100,000"></a><br>
+<strong>Figure 5: All Attacks Less than $100,000</strong></p>
+<p>There are many other possible continuous node values, including probability of success of a given attack, likelihood that an attacker will try a given attack, and so on.</p>
+<h5>Nodes and Their Values</h5>
+<p>In any real attack tree, nodes will have many different values corresponding to many different variables, both Boolean and continuous. Different node values can be combined to learn even more about a system's <a name="rf6" id="rf6">vulnerabilities</a>. Figure 6, for instance, determines the cheapest attack requiring no special equipment. You can also find the cheapest low-risk attack, most likely nonintrusive attack, best low-skill attack, cheapest attack with the highest probability of success, most likely legal attack, and so on. Every time you query the attack tree about a certain characteristic of attack, you learn more about the system's security.</p>
+<p class="illustration"><a href="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/paper-attacktrees-fig6.gif"><img src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/paper-attacktrees-fig6.gif" alt="Figure 6: Cheapest Attack Requiring No Special Equipment"></a><br>
+<strong>Figure 6: Cheapest Attack Requiring No Special Equipment</strong></p>
+<p>To make this work, you must marry attack trees with knowledge about attackers. Different attackers have different levels of skill, access, risk aversion, money, and so on. If you're worried about organized crime, you have to worry about expensive attacks and attackers who are willing to go to jail. If you are worried about terrorists, you also have to worry about attackers who are willing to die to achieve their goal. If you're worried about bored graduate students studying the security of your system, you usually don't have to worry about illegal attacks such as bribery and blackmail. The characteristics of your attacker determine which parts of the attack tree you have to worry about.</p>
+<p>Attack trees also let you play "what if" games with potential countermeasures. In Figure 6, for example, the goal has a cost of $20,000. This is because the cheapest attack requiring no special equipment is bribing the person who knows the combination. What if you implemented a countermeasure -- paying that person more so that he is less susceptible to bribes? If you assume that the cost to bribe him is now $80,000 (again, this is an example; in the real world you'd be expected to research exactly how a countermeasure affects the node value), then the cost increases to $60,000 (presumably to hire the thugs to do the threatening).</p>
+<h5 id="rf7">A PGP Example</h5>
+<p class="illustration"><a href="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/paper-attacktrees-fig7.gif"><img src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/paper-attacktrees-fig7.gif" alt="Figure 7: Attack Tree Against PGP"></a><br>
+<strong>Figure 7: Attack Tree Against PGP</strong></p>
+<p>Figure 7 is an attack tree for the popular PGP e-mail security program. Since PGP is a complex program, this is a complex tree, and it's easier to write it in outline form than graphically. PGP has several security features, so this is only one of several attack trees for PGP. This particular attack tree has "read a message encrypted with PGP" as its goal. Other goals might be: "forge someone else's signature on a message," "change the signature on a message," "undetectibly modify a PGP-signed or PGP-encrypted message," and so on.</p>
+<p>What immediately becomes apparent from the attack tree is that breaking the RSA or IDEA encryption algorithms are not the most profitable attacks against PGP. There are many ways to read someone's PGP-encrypted messages without breaking the cryptography. You can capture their screen when they decrypt and read the messages (using a Trojan horse like Back Orifice, a TEMPEST receiver, or a secret camera), grab their private key after they enter a passphrase (Back Orifice again, or a dedicated computer virus), recover their passphrase (a keyboard sniffer, TEMPEST receiver, or Back Orifice), or simply try to brute force their passphrase (I can assure you that it will have much less entropy than the 128-bit IDEA keys that it generates). In the scheme of things, the choice of algorithm and the key length is probably the least important thing that affects PGP's overall security. PGP not only has to be secure, but it has to be used in an environment that leverages that security without creating any new insecurities.</p>
+<h5>Creating Attack Trees</h5>
+<p>How do you create an attack tree like this? First, you identify the possible attack goals. Each goal forms a separate tree, although they might share subtrees and nodes. Then, try to think of all attacks against each goal. Add them to the tree. Repeat this process down the tree until you are done. Give the tree to someone else, and have him think about the process and add any nodes he thinks of. Repeat as necessary, possibly over the course of several months. Of course there's always the chance that you forgot about an attack, but you'll get better with time. Like any security analysis, creating attack trees requires a certain mindset and takes practice.</p>
+<p>Once you have the attack tree, and have researched all the node values (these values will change over time, both as attacks become easier and as you get more exact information on the values), you can use the attack tree to make security decisions. You can look at the values of the root node to see if the system's goal is vulnerable to attack. You can determine if the system is vulnerable to a particular kind of attack; password guessing, for instance. You can use the attack tree to list the security assumptions of a system; for example, the security of PGP might assume that no one could successfully bribe the programmers. You can determine the impact of a system modification or a new vulnerability discovery: Recalculate the nodes based on the new information and see how the goal node is affected. And you can compare and rank attacks -- which is cheaper, which is more likely to succeed, and the like.</p>
+<p>One of the surprising things that comes out of this kind of analysis is that the areas people think of as vulnerable usually aren't. With PGP, for example, people generally worry about key length. Should they use 1024-bit RSA or 2048-bit RSA? Looking at the attack tree, though, shows that the key length of RSA doesn't really matter. There are all sorts of other attacks -- installing a keyboard sniffer, modifying the program on the victim's hard drive -- that are much easier than breaking the RSA public key. Increasing the key length from 1024 bits to 2048 bits is like putting an enormous stake into the ground and hoping the enemy runs right into it, as opposed to building a lower palisade around the target. Attack trees give you perspective on the whole system.</p>
+<p>One of the things that really makes attack trees valuable is that they capture knowledge in a reusable form. Once you've completed the PGP attack tree, you can use it in any situation that uses PGP. The attack tree against PGP becomes part of a larger attack tree. <a name="rf8" id="rf8">For</a> example, Figure 8 shows an attack tree whose goal is to read a specific message that has been sent from one Windows 98 computer to another. If you look at the root nodes of the tree, the entire attack trees for PGP and for opening a safe fit into this attack tree.</p>
+<p class="illustration"><a href="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/paper-attacktrees-fig8.gif"><img src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/paper-attacktrees-fig8.gif" alt="Figure 8: Attack Tree Against a General Computer System"></a><br>
+<strong>Figure 8: Attack Tree Against a General Computer System</strong></p>
+<p>This scalability means that you don't have to be an expert in everything. If you're using PGP in a system, you don't have to know the details of the PGP attack tree; all you need to know are the values of the root node. If you're a computer-security expert, you don't have to know the details about how difficult a particular model of safe is to crack; you just need to know the values of the root node. Once you build up a library of attack trees against particular computer programs, door and window locks, network security protocols, or whatever, you can reuse them whenever you need to. For a national security agency concerned about compartmentalizing attack expertise, this kind of system is very useful.</p>
+<h5>Conclusion</h5>
+<p>Attack trees provide a formal methodology for analyzing the security of systems and subsystems. They provide a way to think about security, to capture and reuse expertise about security, and to respond to changes in security. Security is not a product -- it's a process. Attack trees form the basis of understanding that process.</p>
+    
+	
+	
+	
+<p class="entry-categories">Categories: <a href="https://www.schneier.com/academic/miscellaneous-papers/">Miscellaneous Papers</a></p>
+    
+	
+	
+	
+	<aside><div class="share" id="share008844"><ul class="social_share_privacy_area line"><li class="help_info facebook"><div class="info">Two clicks for more privacy: The Facebook Like button will be enabled once you click here. No data is loaded from Facebook until you enable the button.  Click the [i] button for more information.</div><span class="switch off">not connected to Facebook</span><div class="dummy_btn fb_like"><img class="fb_like_privacy_dummy privacy_dummy" alt="Facebook &quot;Like&quot;-Dummy" src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/dummy_facebook.png"></div></li><li class="help_info twitter"><div class="info">Two clicks for more privacy: The Tweet this button will be enabled once you click here. No data is loaded from Twitter until you enable the button.  Click the [i] button for more information.</div><span class="switch off">not connected to Twitter</span><div class="dummy_btn tweet"><img class="tweet_privacy_dummy privacy_dummy" alt="&quot;Tweet this&quot;-Dummy" src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/dummy_twitter.png"></div></li><li class="help_info gplus"><div class="info">Two clicks for more privacy: The Google+ button will be enabled once you click here. No data is loaded from Google until you enable the button.  Click the [i] button for more information.</div><span class="switch off">not connected to Google+</span><div class="dummy_btn gplusone"><img class="gplusone_privacy_dummy privacy_dummy" alt="&quot;Google+1&quot;-Dummy" src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/dummy_gplus.png"></div></li><li class="settings_info"><div class="settings_info_menu off"><a href="http://panzi.github.com/SocialSharePrivacy/"><span class="help_info icon"><span class="info">If you click to activate the share buttons, data will be loaded from a third party (Facebook, Twitter, Google), allowing them to track your visit to schneier.com. For more details click the [i] button.</span></span></a><span class="settings" style="cursor: pointer;">Settings</span><form><fieldset><legend>Permanently enable share buttons:</legend><label><input type="checkbox" data-service="facebook">Facebook</label><label><input type="checkbox" data-service="twitter">Twitter</label><label><input type="checkbox" data-service="gplus">Google+</label></fieldset></form></div></li></ul></div></aside>
+	</div></article>
+
+
+
+
+    
+    
+
+
+    
+    
+<div class="stepthrough">
+		
+		<a class="earlier" href="https://www.schneier.com/academic/archives/1999/11/security_in_the_real.html">← Security in the Real World: How to Evaluate Security Technology</a>
+		
+		
+		<a class="later" href="https://www.schneier.com/academic/archives/2000/01/yarrow-160.html">Yarrow-160 →</a>
+		
+	</div>
+
+    
+<p id="powered">Photo of Bruce Schneier by Per Ervland.
+	
+	</p><p id="disclaim">Schneier on Security is a personal website.  Opinions expressed are not necessarily those of <a href="https://www.resilientsystems.com/">IBM Resilient</a>.
+
+
+	
+	</p></div><!--#content-->
+<aside><div class="sidebar" id="sidebar-two">
+		<section><div class="sidesection" id="about">
+		
+		<h3>About Bruce Schneier</h3>
+	    
+	        
+	            <img id="authorphoto" src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/bruce-blog3.jpg" width="150" height="194" alt="Bruce Schneier"><p class="small">I've been writing about security issues on my <a href="https://www.schneier.com/">blog</a> since 2004, and in my monthly <a href="https://www.schneier.com/crypto-gram/">newsletter</a> since 1998. I write <a href="https://www.schneier.com/books/">books</a>, <a href="https://www.schneier.com/essays/">articles</a>, and <a href="https://www.schneier.com/academic/">academic papers</a>. Currently, I'm the Chief Technology Officer of <a href="https://www.resilientsystems.com/">IBM Resilient</a>, a fellow at Harvard's <a href="http://berkman.harvard.edu/">Berkman Center</a>, and a board member of <a href="https://www.eff.org/">EFF</a>.</p>
+	            
+	    
+	            
+	    
+	            
+	    
+	            
+	    
+	            
+	    
+
+		</div></section>
+
+
+
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			<section><div class="sidesection">
+
+					<h3>Featured Essays</h3>
+					<ul>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2016/04/the_value_of_encrypt.html">The Value of Encryption</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2016/03/data_is_a_toxic_asse.html">Data Is a Toxic Asset, So Why Not Throw It Out?</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2014/01/how_the_nsa_threaten.html">How the NSA Threatens National Security</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2009/01/terrorists_may_use_g.html">Terrorists May Use Google Earth, But Fear Is No Reason to Ban It</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2007/01/in_praise_of_securit.html">In Praise of Security Theater</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2006/08/refuse_to_be_terrori.html">Refuse to be Terrorized</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2006/05/the_eternal_value_of.html">The Eternal Value of Privacy</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2005/09/terrorists_dont_do_m.html">Terrorists Don't Do Movie Plots</a></li>
+						
+					</ul>
+
+	    <p><a href="https://www.schneier.com/essays/">more essays</a></p>
+		</div></section>
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+
+    
+    <section><div class="sidesection">
+		
+			<h3>Paper Archives</h3>
+			<ul>
+            
+				<li><a href="https://www.schneier.com/academic/archive.html">Archive by Date</a></li>           
+            
+			</ul>
+		
+
+
+		<h4>Paper Categories</h4>
+<ul class="categorylist">
+		<li><a href="https://www.schneier.com/academic/algorithm-analyses/">Algorithm Analyses</a></li>
+
+		<li><a href="https://www.schneier.com/academic/cipher-design/">Cipher Design</a></li>
+
+		<li><a href="https://www.schneier.com/academic/new-algorithms/">New Algorithms</a></li>
+
+		<li><a href="https://www.schneier.com/academic/protocol-designs/">Protocol Designs</a></li>
+
+		<li><a href="https://www.schneier.com/academic/protocol-analyses/">Protocol Analyses</a></li>
+
+		<li><a href="https://www.schneier.com/academic/pseudorandom-number/">Pseudorandom Number Generators</a></li>
+
+		<li><a href="https://www.schneier.com/academic/smart-cards/">Smart Cards</a></li>
+
+		<li><a href="https://www.schneier.com/academic/miscellaneous-papers/">Miscellaneous Papers</a></li>
+</ul>
+
+
+        
+	
+    </div></section>
+
+
+    
+		<section><div class="sidesection">
+		<h3>Latest Book</h3>
+		<a href="https://www.schneier.com/books/click_here/"><img class="sidepic" alt="Data and Goliath" src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/book-ch2-175w.png"></a>
+		<p><a href="https://www.schneier.com/books/">more books</a></p>
+		</div></section>
+		
+		<section><div class="sidesection">
+		<a href="https://www.eff.org/issues/bloggers/legal/join"><img id="effbutton" src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/eff-150x40.gif" alt="Support Bloggers&#39; Rights!" width="150" height="40"></a>
+		
+		<a href="https://npo.networkforgood.org/Donate/Donate.aspx?npoSubscriptionId=8252"><img src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/epic-150w.png" width="150" height="54" alt="Defend Privacy--Support Epic"></a>
+
+		</div></section>
+
+		<section><div class="sidesection">
+		<a href="https://www.resilientsystems.com/"><img class="sidepic" alt="Resilient Systems" src="./Publication Paper_Academic_ Attack Trees - Schneier on Security_files/resilient-logo3-175w.png"></a>	
+
+		</div></section>
+
+		
+	</div></aside>
+
+
+<footer><nav><div class="nav" id="footer-nav">
+<ul>
+	<li class="menu1"><a href="https://www.schneier.com/">Blog</a></li>
+	<li class="menu2"><a href="https://www.schneier.com/crypto-gram/">Newsletter</a></li>
+	<li class="menu3"><a href="https://www.schneier.com/books/">Books</a></li>
+	<li class="menu4"><a href="https://www.schneier.com/essays/">Essays</a></li>
+	<li class="menu5"><a href="https://www.schneier.com/news/">News</a></li>
+	<li class="menu6"><a href="https://www.schneier.com/talks/">Talks</a></li>
+	<li class="menu7 current"><a href="https://www.schneier.com/academic/">Academic</a></li>
+	<li class="menu8"><a href="https://www.schneier.com/blog/about/">About Me</a></li>
+</ul>
+
+	
+	</div></nav></footer>
+
+</div><!--#main-->
+</div><!--#wrapper-->
+
+
+
+
+
+
+</body></html>

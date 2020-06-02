@@ -1,0 +1,47 @@
+* source NAND
+M_MP2         N15051 N15495 N15022 N15022 IRF9140           
+C_C6         0 UY  1n  TC=0,0 
+U_UB         STIM(1,1)
++ $G_DPWR $G_DGND
++ N15746 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 2ms 1  
++ 3ms 0  
++ 6ms 1 
++ 8ms 0  
++ 9ms 1  
++ 11ms 0  
++ 13ms 1  
++ 16ms 0  
+C_C2         0 N15495  1n  TC=0,0 
+U_UA         STIM(1,1)
++ $G_DPWR $G_DGND
++ N15840 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 4ms 1  
++ 5ms 0  
++ 6ms 1 
++ 9ms 0  
++ 11ms 1  
++ 14ms 0  
++ 15ms 1  
++ 16ms 0  
+R_R5         N15051 UY  10 TC=0,0 
+V_V1         N15022 0 5V
+M_MN1         N15767 N15797 0 0 IRF150           
+C_C7         0 N15767  1n  TC=0,0 
+M_MN2         N15051 N15753 N15767 N15767 IRF150           
+R_R2         N15746 N15495  10 TC=0,0 
+C_C5         0 N15051  1n  TC=0,0 
+M_MP1         N19708 N14704 N15022 N15022 IRF9140           
+R_R4         N15746 N15753  10 TC=0,0 
+R_R1         N15840 N14704  10 TC=0,0 
+C_C1         0 N14704  1n  TC=0,0 
+C_C3         0 N15797  1n  TC=0,0 
+C_C4         0 N15753  1n  TC=0,0 
+R_R3         N15840 N15797  10 TC=0,0 
+R_ROpen         N15051 N19708  10 TC=0,0 

@@ -1,0 +1,13 @@
+https://www.youtube.com/watch?v=rlic2A7VB80
+Security Controls & Vulnerabilities in Embedded System OS
+
+https://www.youtube.com/channel/UC7QA0wx1m_aLyctDusU4X7g/playlists
+Phil Koopman
+
+Embedded System Lecture Notes and Presentations
+https://users.ece.cmu.edu/~koopman/lectures/
+
+https://www.youtube.com/watch?v=o3QeBRZed5c
+Hardware Security For Embedded Systems
+Security Threats and Countermeasures for Embedded Systems, pt 1of 5
+https://www.youtube.com/watch?v=wD4dkP5IFVQ&list=PLE7C6DD758EA9CF5A

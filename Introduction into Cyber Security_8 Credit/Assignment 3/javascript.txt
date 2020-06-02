@@ -1,0 +1,3 @@
+<SCRIPT type="text/javascript">
+<br>window.open("https://www.google.com", "_blank", "toolbar= yes, top =500, left= 500, width = 400, height = 400");
+<br></SCRIPT>

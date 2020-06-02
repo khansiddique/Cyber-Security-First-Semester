@@ -1,0 +1,14 @@
+Converted senctence1.txt to hex, after we used XOR with the said cypher text and got this key:
+Submition key A: 
+35 59 54 14 56 5F 03 5C 05 50 15 10 0D 50 15
+45 4C 5B 56 56 15 40 11 03 47 00 45 5E 56 09
+53 43
+And the used decryption algorithm is: XOR Cryptography
+
+
+Converted senctence2.txt to hex, after we used XOR with the said cypher text and got this key:
+Submition key B:
+2F 5E 46 18 15 43 0A 57 46 56 0E 51 0C 55 50
+45 19 59 47 56 46 5D 5E 16 15 16 0A 19 5E 09
+58 06
+And the used decryption algorithm is: XOR Cryptography

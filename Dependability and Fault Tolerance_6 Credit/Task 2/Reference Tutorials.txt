@@ -1,0 +1,31 @@
+Probability Density Functions / Continuous Random Variables
+https://www.youtube.com/watch?v=szjL60gAweE
+Probability Density Functions
+https://www.youtube.com/watch?v=QKA4HNEw3aY
+Mean Time to Failure: Video
+https://www.youtube.com/watch?v=Dqx56lZ_icg
+
+Random Variables (Continuous Random Variables and Discrete Random Variables), with Examples [HD]
+https://www.youtube.com/watch?v=82Ad1orN-NA
+Cumulative Distribution Function (CDF) and Properties of CDF/ Random Variables and Sample Space
+https://www.youtube.com/watch?v=qs_79VE5-Hs
+Probability Density Function (PDF)-Properties of PDF (Random Variables and Probability Distribution)
+https://www.youtube.com/watch?v=bNmlAC22cAg
+
+
+For Task -2
+------------------------------------------------------------------------------------------------
+Lecture 17- Industrial engineering tool for failure analysis: Reliability-II
+https://www.youtube.com/watch?v=tOXDp_I1X9c
+Lecture 16- Industrial engineering tool for failure analysis: Reliability-I
+https://www.youtube.com/watch?v=EIxgxrGumhc
+
+
+Mod-01 Lec-40 Reliability of systems
+https://www.youtube.com/watch?v=_c-iZ2BAXPw&t=13s
+
+PRA Reliability Block Diagram: Equivalent Reliability and Conditional Reliability Tutorial
+https://www.youtube.com/watch?v=yngNzHJUxS8
+
+EE300 Statistics - System reliability problem
+https://www.youtube.com/watch?v=S2jssT03hIg
